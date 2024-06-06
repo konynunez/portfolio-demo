@@ -11,7 +11,7 @@ const Work = ({name, description, link, Image}) => {
       <br></br>
       Link: {link}
       <br></br>
-      image: (image)
+      Image: {Image}
 
     </div>
   );

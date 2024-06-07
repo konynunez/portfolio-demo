@@ -6,9 +6,9 @@ export default function Page() {
     <div>
       <hr className="mx-5" />
       <main style={{ minHeight: '80vh' }}>
-        <h2 className="text-3xl text-center my-10 italic font-bold">Projects Page</h2>
-        <h3 className="text-center">Click on the image to github Repository</h3>
-        <div>
+        <h2 className="text-3xl text-center my-10 italic font-bold text-red-600">Projects Page</h2>
+        <h3 className="text-center">Click on the image to go to the GitHub Repository</h3>
+        <div className="flex flex-wrap justify-center">
           <Work
             name="Citas Motivacionales"
             description="Click button, randomly shows a famous quote and author"

@@ -30,9 +30,10 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-        <footer className="text-center font-bold mt-1">
-          &copy; Panoramix Design || konynunez@gmail.com
-        </footer>
+        <footer className="text-center font-bold mt-8 portfolioText">
+        &copy; Panoramix Design || konynunez@gmail.com
+      </footer>
+
       </body>
     </html>
   );
